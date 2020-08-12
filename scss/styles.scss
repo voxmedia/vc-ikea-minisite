@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Raleway', sans-serif;
+
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +13,148 @@ body {
 
 #landing-page {
     height: 100vh;
+    background-image: url('../assets/images/IKEA_Hub_HeroImage.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#landing-page img {
+    transform: scale(2);
+}
+
+#red-section {
+    background-color: #FF604A;
+    font-family: 'Raleway', sans-serif;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+#red-section p {
+    font-size: 2.5vw;
+}
+
+#green-section {
+    background-color: #0E9474;
+    font-family: 'Raleway', sans-serif;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+#green-section p {
+    font-size: 2vw;
+    z-index: 1;
+}
+
+.custom-shape {
+    height: 25vw;
+}
+
+#video-section {
+    background: linear-gradient(to right, #EC82A1 75%, #0057A3 25%);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+#camera-section {
+    height: 600px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#quiz-section {
+    height: 1000px;
+    background: #F8F5EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+
+.transition-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.transition-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.transition-shape {
+    height: 6vw;
+}
+
+.quiz-container {
+    height: 400px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.article-image {
+    height: 20vw;
+}
+
+.arrow-row {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 23%; 
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+.arrow {
+    height: 4vw;
+}
+
+.arrow-1 {
+    transform: rotate(315deg);
+}
+
+.arrow-2 {
+    transform: rotate(225deg);
+}
+
+.blue-star {
+    position: absolute;
+    top: -9%;
+    left: -10%;
+}
+
+#sound-section {
+    height: 300px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    height: 300px;
+    background: #465451;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
