@@ -39,6 +39,7 @@ body {
 }
 
 #green-section {
+    position: relative;
     background-color: #0E9474;
     font-family: 'Raleway', sans-serif;
     height: 700px;
@@ -52,6 +53,28 @@ body {
 #green-section p {
     font-size: 2vw;
     z-index: 1;
+    width: 80%;
+}
+
+#green-section .blue-circle {
+    position: absolute;
+    left: -7%;
+    bottom: 2%;
+    height: 26vh;
+}
+
+#green-section .pink-star {
+    position: absolute;
+    height: 26vh;
+    right: 8%;
+    top: 2%;
+}
+
+#green-section .white-circle {
+    position: absolute;
+    height: 26vh;
+    right: 8%;
+    bottom: 23%;
 }
 
 .custom-shape {
