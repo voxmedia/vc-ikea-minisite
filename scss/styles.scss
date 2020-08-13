@@ -60,7 +60,7 @@ p {
 
 .landing-logo {
     max-width: 100%;
-    transform: scale(2);
+    height: 10vw;
     position: relative;
     z-index: 1;
 }
@@ -267,7 +267,7 @@ p {
     }
 
     .landing-logo {
-        transform: scale(1);
+        height: 8vh;
     }
 
     .curbed-logo {
