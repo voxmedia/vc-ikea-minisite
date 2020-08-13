@@ -253,6 +253,10 @@ p {
     .transition-container {
         padding: 0 30px;
     }
+
+    .transition-block {
+        display: unset;
+    }
  
     .transition-block-margin {
         margin: 0 !important;
