@@ -20,7 +20,8 @@ body {
     justify-content: center;
 }
 
-#landing-page img {
+.landing-logo {
+    max-width: 100%;
     transform: scale(2);
 }
 
@@ -213,5 +214,9 @@ body {
 
     .article-image:not(:first-child) {
         margin-top: 5%;
+    }
+
+    .landing-logo {
+        transform: none;
     }
    }
