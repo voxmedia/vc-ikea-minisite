@@ -11,18 +11,57 @@ body {
     margin: 0;
 }
 
+p {
+    line-height: 1.5;
+}
+
 #landing-page {
     height: 100vh;
     background-image: url('../assets/images/IKEA_Hub_HeroImage.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
+}
+
+.header-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 4%;
+}
+
+.ikea-logo {
+    height: 3vh;
+    cursor: pointer;
+}
+
+.curbed-logo {
+    height: 6vh;
+    cursor: pointer;
+}
+
+.logo-container {
+    position: relative;
+    height: 100%;
+    margin-bottom: 20vh;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .landing-logo {
     max-width: 100%;
     transform: scale(2);
+    position: relative;
+    z-index: 1;
+}
+
+.logo-shadow {
+    position: absolute;
+    opacity: 0.4;
 }
 
 #red-section {
@@ -188,6 +227,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+
+    p {
+        line-height: 1.4;
+    }
+
     .transition-container {
         flex-direction: column;
     }
@@ -217,6 +261,6 @@ body {
     }
 
     .landing-logo {
-        transform: none;
+        transform: scale(1);
     }
    }
