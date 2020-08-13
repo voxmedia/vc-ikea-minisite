@@ -32,6 +32,12 @@ p {
     padding: 2% 4%;
 }
 
+.ikea-logo-text {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-right: 12px;
+}
+
 .ikea-logo {
     height: 3vh;
     cursor: pointer;
@@ -61,7 +67,7 @@ p {
 
 .logo-shadow {
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 #red-section {
@@ -262,5 +268,17 @@ p {
 
     .landing-logo {
         transform: scale(1);
+    }
+
+    .curbed-logo {
+        height: 5vh;
+    }
+
+    .ikea-logo {
+        height: 2.4vh;
+    }
+    
+    .ikea-logo-text {
+        font-size: 9px;
     }
    }
