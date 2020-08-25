@@ -13,6 +13,7 @@ body {
 
 p {
     line-height: 1.5;
+    color: black;
 }
 
 #landing-page {
@@ -81,7 +82,7 @@ p {
 }
 
 #red-section p {
-    font-size: 2.5vh;
+    font-size: 1.4em;
 }
 
 #green-section {
@@ -97,9 +98,13 @@ p {
 }
 
 #green-section p {
-    font-size: 2vh;
+    font-size: 1.4em;
     z-index: 1;
     width: 80%;
+}
+
+.green-section-margin {
+    margin-bottom: 6vh;
 }
 
 #green-section .blue-circle {
@@ -111,16 +116,16 @@ p {
 
 #green-section .pink-star {
     position: absolute;
-    height: 26vh;
+    height: 30vh;
     right: 8%;
-    top: 2%;
+    top: 3vh;
 }
 
 #green-section .white-circle {
     position: absolute;
-    height: 26vh;
+    height: 30vh;
     right: 8%;
-    bottom: 23%;
+    bottom: 21vh;
 }
 
 .custom-shape {
@@ -232,10 +237,29 @@ p {
     align-items: center;
 }
 
+@media only screen and (max-width: 800px) {
+    #green-section p {
+        font-size: 2.5vw;
+    }
+}
+
 @media only screen and (max-width: 600px) {
 
     p {
         line-height: 1.4;
+    }
+
+    #green-section p {
+        font-size: 2vh;
+        height: unset;
+    }
+
+    .green-section-margin {
+        margin-bottom: unset;
+    }
+
+    .custom-shape {
+        display: none;
     }
 
     .transition-container {
@@ -271,7 +295,7 @@ p {
     }
 
     .landing-logo {
-        height: 8vh;
+        height: 9.5vh;
     }
 
     .curbed-logo {
