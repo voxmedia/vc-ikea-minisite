@@ -96,6 +96,7 @@ p {
 #red-section img {
     height: 2rem;
     cursor: pointer;
+    animation: scroll .35s ease-in alternate infinite;
 }
 
 #green-section {
@@ -326,3 +327,12 @@ p {
         font-size: 9px;
     }
    }
+
+   @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }
