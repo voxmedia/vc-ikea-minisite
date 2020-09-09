@@ -24,7 +24,7 @@
         <p>
           Discover a new way of living, and find out how making better choices at home can lead to a brighter future for ourselves and our planet.
         </p>
-        <img src="assets/shapes/IKEA_Hub_Arrow.svg">
+        <img id="scroll-arrow" src="assets/shapes/IKEA_Hub_Arrow.svg">
     </section>
     <section id="green-section">
         <div class="green-section-margin" style="display: flex; flex-direction: row;">
@@ -163,4 +163,9 @@
           </div>
         </div>
       </footer>
+      <script>
+        document.getElementById('scroll-arrow').addEventListener('click', function() {
+          document.getElementById('green-section').scrollIntoView({behavior: "smooth"});
+        });
+      </script>
 </body>
