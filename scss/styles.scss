@@ -33,12 +33,16 @@ p {
 .jump-button {
     height: 2.4vw;
     width: 2.4vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     background: red;
     cursor: pointer;
-    -webkit-box-shadow: 10px 10px 69px -3px rgba(0,0,0,0.5);
-    -moz-box-shadow: 10px 10px 69px -3px rgba(0,0,0,0.5);
-    box-shadow: 10px 10px 69px -3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 10px 10px 69px -3px rgba(0,0,0,0.7);
+    -moz-box-shadow: 10px 10px 69px -3px rgba(0,0,0,0.7);
+    box-shadow: 10px 10px 69px -3px rgba(0,0,0,0.7);
 }
 
 .jump-button:not(:first-of-type) {
