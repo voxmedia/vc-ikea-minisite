@@ -277,6 +277,16 @@ p {
     }
 }
 
+@media (orientation: landscape) {
+    .button-jump-container {
+        display: none;
+    }
+
+    #red-section p {
+        font-size: 2vh;
+    }
+  }
+
 @media only screen and (max-width: 750px) {
 
     p {
