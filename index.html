@@ -7,6 +7,13 @@
     <title>Ikea Hub</title>
 </head>
 <body>
+  <div class="button-jump-container">
+    <div id="green-section-btn" style="background: #0E9474;" class="jump-button"></div>
+    <div id="video-section-btn" style="background: linear-gradient(to right, #EC82A1 75%, #0057A3 25%);" class="jump-button"></div>
+    <div id="camera-section-btn" style="background: white;" class="jump-button"></div>
+    <div id="quiz-section-btn" style="background: #F8F5EB" class="jump-button"></div>
+    <div id="sound-section-btn" style="background: white;" class="jump-button"></div>
+  </div>
     <header id="landing-page">
         <div class="header-logos">
             <img class="curbed-logo" src="./assets/logos/Curbed_logo_White.svg" alt="curbed logo">
@@ -27,17 +34,16 @@
         <img id="scroll-arrow" src="assets/shapes/IKEA_Hub_Arrow.svg">
     </section>
     <section id="green-section">
-        <div class="green-section-margin" style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: row;">
             <p style="margin-bottom: 5vh;">
               Inspired by our shared commitments to sustainability, inclusivity and innovation, <b>Vox Creative</b> and <b>IKEA</b> have teamed up to reimagine home design. <b>The challenge?</b> To create a space that’s stylish, sustainable, and affordable — oh, and fit all that in about 100 square feet, just to prove that anyone, anywhere can live a more sustainable life.
             </p>
             <img class="custom-shape pink-star" src="./assets/shapes/IKEA_Hub_PinkStarburst.svg">
-            <img class="custom-shape white-circle" src="./assets/shapes/IKEA_Hub_WhiteCircle.svg">
         </div>
         <div style="display: flex; flex-direction: row;">
         <img class="custom-shape blue-circle" src="assets/shapes/IKEA_Hub_BlueCircle.svg">
             <p style="text-align: right; margin-left: 12%;">
-              <b>Spoiler alert: We did it!</b> We built an entirely sustainable tiny home from the ground up to better educate and inspire consumers to bring sustainability into their own lives. We learned a lot in the process, and now we’re bringing our best tips and tricks to you. Explore all the clever ways we saved space, resources, and money in our Tiny Home Tour video. Read interviews with people who do tiny-home living every day. Discover why IKEA makes more affordable products and how they can make your home — of any size — more stylish and sustainable.
+              <b>Spoiler alert: We did it!</b> We built an sustainable tiny home from the ground up to better educate and inspire consumers to bring sustainability into their own lives. We learned a lot in the process, and now we’re bringing our best tips and tricks to you. Explore all the clever ways we saved space, resources, and money in our Tiny Home Tour video. Read interviews with people who do tiny-home living every day. Discover why IKEA makes more affordable products and how they can make your home — of any size — more stylish and sustainable.
             </p>
         </div>
     </section>
@@ -166,6 +172,21 @@
       <script>
         document.getElementById('scroll-arrow').addEventListener('click', function() {
           document.getElementById('green-section').scrollIntoView({behavior: "smooth"});
+        });
+        document.getElementById('green-section-btn').addEventListener('click', function() {
+          document.getElementById('green-section').scrollIntoView({behavior: "smooth"});
+        });
+        document.getElementById('video-section-btn').addEventListener('click', function() {
+          document.getElementById('video-section').scrollIntoView({behavior: "smooth"});
+        });
+        document.getElementById('camera-section-btn').addEventListener('click', function() {
+          document.getElementById('camera-section').scrollIntoView({behavior: "smooth"});
+        });
+        document.getElementById('quiz-section-btn').addEventListener('click', function() {
+          document.getElementById('quiz-section').scrollIntoView({behavior: "smooth"});
+        });
+        document.getElementById('sound-section-btn').addEventListener('click', function() {
+          document.getElementById('sound-section').scrollIntoView({behavior: "smooth"});
         });
       </script>
 </body>
