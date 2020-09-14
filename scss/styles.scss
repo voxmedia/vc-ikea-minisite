@@ -294,6 +294,16 @@ p {
     }
 }
 
+// IPAD
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+    .button-jump-container {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 750px) {
 
     p {
