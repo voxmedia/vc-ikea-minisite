@@ -176,7 +176,7 @@ p {
 
 #video-section {
     background: linear-gradient(to right, #EC82A1 75%, #0057A3 25%);
-    height: 700px;
+    padding: 3vw 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,13 +184,22 @@ p {
     color: white;
 }
 
+.video-section-thumbnail {
+    height: auto;
+    cursor: pointer;
+}
+
 #camera-section {
-    height: 600px;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
+}
+
+.cam-thumbnail {
+    height: auto;
+    cursor: pointer;
 }
 
 #quiz-section {
