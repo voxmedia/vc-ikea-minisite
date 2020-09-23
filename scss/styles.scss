@@ -203,6 +203,7 @@ p {
     background: linear-gradient(to right, #EC82A1 75%, #0057A3 25%);
     padding: 3vw 5vw;
     display: flex;
+    height: 85vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -218,6 +219,7 @@ p {
 #camera-section {
     color: black;
     display: flex;
+    height: 85vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -298,7 +300,7 @@ p {
 }
 
 #sound-section {
-    height: 300px;
+    padding: 5%;
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
