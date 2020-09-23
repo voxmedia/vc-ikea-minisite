@@ -7,6 +7,12 @@
     padding: 0;
 }
 
+a:focus, a:hover {
+    color: unset !important;
+}
+
+:focus { outline: none !important; }
+
 sup {
     font-size: .8vw !important;
     position: relative;
@@ -45,11 +51,22 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: red;
+    background: white;
     cursor: pointer;
     -webkit-box-shadow: 10px 10px 69px -3px rgba(0,0,0,0.7);
     -moz-box-shadow: 10px 10px 69px -3px rgba(0,0,0,0.7);
     box-shadow: 10px 10px 69px -3px rgba(0,0,0,0.7);
+}
+
+.article-text {
+    margin-top: 10px;
+}
+
+.hyperlink-text {
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
 }
 
 .jump-button:not(:first-of-type) {
@@ -62,7 +79,7 @@ p {
 
 #landing-page {
     height: 70vh;
-    background-image: url('../assets/images/ikea_tiny_home_background.jpg');
+    background-image: url('../assets/images/IKEA_Hub_Hero.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -186,7 +203,8 @@ p {
     padding: 3vw 5vw;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     font-family: 'Raleway', sans-serif;
     color: white;
 }
@@ -213,8 +231,8 @@ p {
     background: #F8F5EB;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 5%;
+    align-items: flex-start;
+    padding: 2% 5% 5% 5%;
 }
 
 
@@ -296,8 +314,16 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+    .hyperlink-text {
+        display: none;
+    }
+
     #green-section p {
         font-size: 2.5vw;
+    }
+
+    #quiz-section {
+        padding: 5%;
     }
 }
 
