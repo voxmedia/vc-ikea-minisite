@@ -203,8 +203,8 @@ p {
     padding: 3vw 5vw;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    align-items: left;
     font-family: 'Raleway', sans-serif;
     color: white;
 }
@@ -217,6 +217,7 @@ p {
 #camera-section {
     color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
@@ -232,7 +233,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 2% 5% 5% 5%;
+    padding: 5%;
 }
 
 
