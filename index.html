@@ -10,19 +10,22 @@
 </head>
 <body>
   <div class="button-jump-container">
-    <div id="green-section-btn" style="background: #0E9474;" class="jump-button"><span class="material-icons">
+    <div id="green-section-btn" class="jump-button"><span class="material-icons">
       emoji_objects
       </span></div>
-    <div id="video-section-btn" style="background: linear-gradient(to right, #EC82A1 75%, #0057A3 25%);" class="jump-button"><span class="material-icons">
+    <div id="video-section-btn" class="jump-button"><span class="material-icons">
       play_circle_outline
       </span></div>
-    <div id="camera-section-btn" style="background: white;" class="jump-button"><span class="material-icons">
+    <div id="camera-section-btn" class="jump-button"><span class="material-icons">
       videocam
       </span></div>
-    <div id="quiz-section-btn" style="background: #F8F5EB" class="jump-button"><span class="material-icons">
-      assessment
+    <div id="article-section-btn" class="jump-button"><span class="material-icons">
+      subject
       </span></div>
-    <div id="sound-section-btn" style="background: white;" class="jump-button"><span class="material-icons">
+    <div id="quiz-section-btn" class="jump-button"><span class="material-icons">
+      help_outline
+      </span></div>
+    <div id="sound-section-btn" class="jump-button"><span class="material-icons">
       volume_up
       </span></div>
   </div>
@@ -61,15 +64,17 @@
     </section>
     <section id="video-section">
         <a target="_blank" href="https://www.curbed.com/ad/21419444/ikea-tiny-home-explainer-sustainability"><img class="video-section-thumbnail" src="assets/images/IKEA_ExplainerVideo_Thumbnail.png"></a>
+        <a style="width: fit-content;" target="_blank" href="https://www.curbed.com/ad/21419444/ikea-tiny-home-explainer-sustainability"><p class="hyperlink-text">The IKEA Tiny Home, Explained</p></a>
     </section>
     <section id="camera-section">
        <a target="_blank" href="https://www.curbed.com/ad/21417721/virtual-tour-ikea-tiny-home-sustainability"><img class="cam-thumbnail" src="assets/images/IKEA_360_Thumbnail.png"></a>
     </section>
     <section id="quiz-section">
+      <a style="margin-bottom: 5vh; width: fit-content;" target="_blank" href="https://www.curbed.com/ad/21419444/ikea-tiny-home-explainer-sustainability"><p class="hyperlink-text">Learn more about our IKEA Tiny Home</p></a>
         <div class="transition-container">
             <div class="transition-block">
-                <img class="article-image" src="assets/images/IKEA_Hub_Article1_Thumbnail.png" alt="house">
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+                <a target="_blank" href="https://www.curbed.com/ad/21420129/tiny-home-small-space-living-advice"><img class="article-image" src="assets/images/IKEA_Hub_Article1_Thumbnail.png" alt="house"></a>
+                <a target="_blank" href="https://www.curbed.com/ad/21420129/tiny-home-small-space-living-advice"><p class="article-text"> Tiny Home Owners Share Their Best Advice for Small-Space Living </p></a>
                 <img style="align-self: flex-start; margin-top: 10%;" class="transition-shape" src="assets/shapes/IKEA_Hub_GreenCircle.svg">
             </div>
             <div class="transition-block transition-block-margin">
@@ -77,21 +82,24 @@
                     <img class="arrow arrow-1" src="assets/shapes/IKEA_Hub_Arrow.svg">
                     <img class="arrow arrow-2" src="assets/shapes/IKEA_Hub_Arrow.svg">
                 </div>
-                <img class="article-image" src="assets/images/IKEA_Hub_Article2_Thumbnail.png" alt="man painting">
-                <p> Nunc elementum vitae libero sit amet iaculis </p>
+                <a target="_blank" href="https://www.curbed.com/ad/21420121/sustainable-home-advice-ikea"><img class="article-image" src="assets/images/IKEA_Hub_Article2_Thumbnail.png" alt="man painting"></a>
+                <a target="_blank" href="https://www.curbed.com/ad/21420121/sustainable-home-advice-ikea"><p class="article-text"> How to Turn Your Space Into a Sustainable Home </p></a>
             </div>
             <div class="transition-block">
                 <img class="transition-shape blue-star" src="assets/shapes/IKEA_Hub_BlueStarburst.svg">
-                <img class="article-image" src="assets/images/IKEA_Hub_Article3_Thumbnail.png" alt="rolling desk" style="z-index: 1;">
-                <p> Quisque in gravida nulla, facilisis commodo magna </p>
+                <a style="z-index: 1;" target="_blank" href="https://www.curbed.com/ad/21417838/top-ikea-products-tiny-home"><img class="article-image" src="assets/images/IKEA_Hub_Article3_Thumbnail.png" alt="rolling desk" style="z-index: 1;"></a>
+                <a target="_blank" href="https://www.curbed.com/ad/21417838/top-ikea-products-tiny-home"><p class="article-text"> Our Top IKEA<sup>&reg;</sup> Picks for Tiny Home Living </p></a>
             </div>
         </div>
-        <div class="quiz-container">
+        <div id="quiz" class="quiz-container">
             <iframe style="border: none;" srcdoc='<head></head><body><div style="display:none" data-hymnal-ad-id="ce1f3186-d81d-40f8-9a5f-52cb0139b812" data-hymnal-design-variant-id="0a9a04c7cefc494dfb46a557b82e5585" data-hymnal-dfp-click-url="%%CLICK_URL_UNESC%%" data-hymnal-dfp-dest-url="%%DEST_URL_ESC%%" data-hymnal-top-level-adunit="%esid!" data-hymnal-bottom-level-adunit="%epid!" data-hymnal-ad-unit-id="%%PATTERN:pos%%" data-hymnal-concert-id="%%PATTERN:concert_rid%%" data-hymnal-concert-control="%%PATTERN:ccc%%" data-hymnal-site-id="%%PATTERN:site%%" data-hymnal-network="%%PATTERN:network%%" data-hymnal-order="%%PATTERN:order%%" data-hymnal-entry-type="%%PATTERN:entry_type%%" data-hymnal-dfp-advertiser-id="%eadv!" data-hymnal-dfp-order-id="%ebuy!" data-hymnal-dfp-line-item-id="%eaid!" data-hymnal-dfp-creative-id="%ecid!" data-hymnal-format-name="athena-custom-with-sdkv2"></div><script src="https://hymnal-prod.vox-cdn.com/ads/_test_client_ikea_quiz_ce1f3186-d81d-40f8-9a5f-52cb0139b812/ad.js"></script></body>' width="100%" height="400" scrolling="no" marginwidth="0" marginheight="0" style="border: 0px none; vertical-align: bottom;"></iframe>
         </div>
     </section>
     <section id="sound-section">
-        <p>sound embed will go here</p>
+      <!-- <iframe frameBorder="0" height="482" scrolling="no" src="https://playlist.megaphone.fm/?p=VMP9942233748"
+      width="100%"></iframe> -->
+      <p>sound embed goes here</p>
+      
     </section>
     <footer class="c-footer" role="contentinfo" data-cid="site/global_footer-1598367425_7419_14363" data-cdata="{}">
         <div class="l-wrapper c-footer__wrapper">
@@ -194,8 +202,11 @@
         document.getElementById('camera-section-btn').addEventListener('click', function() {
           document.getElementById('camera-section').scrollIntoView({behavior: "smooth"});
         });
-        document.getElementById('quiz-section-btn').addEventListener('click', function() {
+        document.getElementById('article-section-btn').addEventListener('click', function() {
           document.getElementById('quiz-section').scrollIntoView({behavior: "smooth"});
+        })
+        document.getElementById('quiz-section-btn').addEventListener('click', function() {
+          document.getElementById('quiz').scrollIntoView({behavior: "smooth"});
         });
         document.getElementById('sound-section-btn').addEventListener('click', function() {
           document.getElementById('sound-section').scrollIntoView({behavior: "smooth"});
