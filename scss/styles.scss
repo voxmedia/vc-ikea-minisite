@@ -416,6 +416,15 @@ and (orientation : landscape) {
         height: 5vh;
     }
 
+
+    .ikea-logo-container {
+        align-items: flex-end;
+    }
+
+    .ikea-logo-text {
+        margin: unset;
+    }
+
     .ikea-logo {
         height: 4vh;
     }
