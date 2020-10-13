@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 a:focus, a:hover {
     color: unset !important;
 }
